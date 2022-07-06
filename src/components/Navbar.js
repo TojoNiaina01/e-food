@@ -25,7 +25,7 @@ const Navbar = () => {
     );
 
     return (
-        <header className={`${isScrolled ? "fixed top-0 bg-blackviolet z-50" : "absolute top-0 bg-blackviolet/70 w-full z-50 text-beige py-4"}`}>
+        <header className={`${isScrolled ? "bg-blackviolet " : "bg-blackviolet/70"} fixed top-0 w-full z-50 text-beige py-4 transition duration-300`}>
             <nav className="flex justify-around font-Signika uppercase">
                 <div className="flex items-center gap-2 hover:text-jaune">
                     <GiFullPizza className="h-7 w-7 "/>

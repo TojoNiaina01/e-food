@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer components {
+    .title{
+      @apply font-Kanit font-semibold text-4xl text-center py-7 uppercase after:content-[''] after:block after:h-[2px] after:w-[200px] after:mx-auto after:bg-blackviolet after:mt-2
+    }
+}

@@ -1,9 +1,12 @@
 import React from 'react';
+import Produits from "./Produits";
 
 const Featured = () => {
+
     return (
         <main>
-            <div className="h-screen">hello</div>
+            <h1 className="title">nos menus</h1>
+            <Produits/>
         </main>
     );
 };

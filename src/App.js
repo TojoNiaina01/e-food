@@ -1,6 +1,7 @@
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import Featured from "./components/Featured";
+import Footer from "./components/Footer";
 
 function App() {
     return (
@@ -9,7 +10,8 @@ function App() {
                 <Navbar/>
                 <Landing/>
             </header>
-            <Featured />
+            <Featured/>
+            <Footer/>
         </div>
     );
 }

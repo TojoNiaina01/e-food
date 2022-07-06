@@ -10,11 +10,11 @@ const Landing = () => {
                 is Love</p>
             <img src={Arrow}
                  className="hidden lg:block lg:absolute lg:top-1/2 lg:left-[80px] lg:text-white lg:h-72 lg:w-auto"
-                 alt="" />
+                 alt="fleche de decoration" />
             <img src={landingImg} className="object-cover h-[60vh] w-full md:h:[80vh] lg:h-screen"
                  alt="Pizza italien homemade" />
             <img src={Arrow} className=" hidden lg:block lg:absolute lg:top-1/2 lg:h-72 lg:right-[95px] lg:scale-x-[-1]"
-                 alt="" />
+                 alt="fleche de decoration" />
             <p className="hidden lg:block lg:text-beige lg:text-3xl lg:font-Kanit lg:text-right lg:absolute lg:top-1/2 lg:right-[40px] lg:transform lg:translate-y-[-50%]">Food <br/> is <br/> Life
             </p>
             <button
